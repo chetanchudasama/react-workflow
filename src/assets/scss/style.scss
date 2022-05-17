@@ -1,0 +1,40 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.nestable-item-name:hover {
+  background-color: #f7f7f7; // hide the background on hover
+  transition: 0.1s;
+}
+.nestable-item-name .img {
+  transition: 0.1s;
+  display: none;
+}
+.nestable-item-name:hover .img {
+  transition: 0.1s;
+  display: flex;
+  /* z-index: -1; */
+}
+.nestable-item-name .delete {
+  transition: 0.1s;
+  display: none;
+}
+.nestable-item-name:hover .delete {
+  display: flex;
+  /* z-index: 1; */
+}
+
+.editable {
+  outline: none;
+  b {
+    color: blue;
+    cursor: pointer;
+  }
+}
